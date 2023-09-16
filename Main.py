@@ -24,7 +24,7 @@ while True:
             if event.key==pygame.K_DOWN:
                 game.move_down()
     screen.fill((44,44,127))
-    game.draw(screen=screen)
+    game.draw(screen)
 
 
     pygame.display.update()

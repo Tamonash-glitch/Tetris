@@ -3,7 +3,7 @@ from blocks import *
 import random
 class Game:
     def __init__(self):
-        self.grid=Grid
+        self.grid=Grid()
         self.blocks=[Iblock(),Jblock(),Lblock(),Oblock(),Sblock(),Tblock(),Zblock()]
         self.current_block=self.get_random_block()
         self.next_block=self.get_random_block()
